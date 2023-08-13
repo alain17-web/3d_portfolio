@@ -4,10 +4,7 @@ import Hero from "./components/Hero"
 import Who from "./components/Who"
 import Works from "./components/Works"
 
-
-function App() {
-
-  const Container = styled.div`
+const Container = styled.div`
     height: 100vh;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
@@ -19,6 +16,11 @@ function App() {
       display: none;
     }
   `
+
+
+function App() {
+
+  
 
   return (
     <Container>
